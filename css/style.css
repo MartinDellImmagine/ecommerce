@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+.input-group{
+    width: 300px;
+    
+}
+
+.visitors{
+    list-style: none;
+    margin: 10px;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+
+    margin: 0.3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+.card{
+    margin: 0 1em;
+    padding: 0.3em;
+}
+
+.card img{
+    cursor: pointer;
+}
+.d-grid {
+    margin: 0.3em;
+}
+
+
+.card button{
+    font-size: 1.2em;
+}
+
+footer .bi:hover{
+    text-decoration: underline;
+}
+
+
+.mcard-container{
+    padding:1em;
+    border-bottom: 3px solid aliceblue;
+    display: flex;
+
+    background-color: white;
+}
+.mcard-img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.mcard-body{
+    margin: 0 1em;
+}
+
+@media screen and (max-width: 768px){
+
+    .aside{
+        display: none;
+    }
+
+    .perfil-photo{
+        display: none;
+    }
+}
+
+
+
